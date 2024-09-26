@@ -267,6 +267,8 @@ OUTPUT:
 The implementation of a stack using an array demonstrates the basic functionality of a stack—LIFO (Last In, First Out). In this approach:
 
 Push Operation: Adds elements to the top of the stack, and checks for stack overflow when trying to exceed the maximum array size.
+
 Pop Operation: Removes and returns the element from the top of the stack, checking for underflow if the stack is empty.
+
 Display Operation: Prints all the current elements in the stack in reverse order (from top to bottom).
 This implementation is efficient for a fixed-size stack. However, it is constrained by the array's static size, meaning if the stack grows beyond the array's limit, overflow occurs. Dynamic alternatives like linked lists or dynamic resizing arrays can be used for flexibility in real-world applications.
